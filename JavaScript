@@ -1,0 +1,15 @@
+let producto = {
+    nombre: "Camiseta",
+    precio: 20,
+    cantidadDisponible: 100
+};
+console.log(producto);
+
+producto.nombre = "Zapatillas";
+producto.nombre = "Zapatillas";
+
+producto.categoria = "Calzado";
+console.log(producto);
+delete producto.cantidadDisponible;
+
+console.log(producto);
